@@ -31,6 +31,8 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	overflow-x: hidden;
+	position: center;
 }
 
 ol, ul {
@@ -8682,6 +8684,7 @@ input, select, textarea {
 	/* Set your background with this */
 
 		background: #348cb2 url("images/bg.jpg") bottom left;
+		/*background: #5191db url("images/IMG_0994.jpeg") bottom left;*/
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
