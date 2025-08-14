@@ -96,10 +96,13 @@
       cursor: pointer;
       font-size: 14px;
       transition: background 0.3s;
+      text-decoration: none;
+      display: inline-block;
     }
     
     .btn:hover {
       background: #5a6fd8;
+      text-decoration: none;
     }
     
     .btn.secondary {
@@ -318,8 +321,7 @@
       </div>
     </header>
     <div class="toolbar no-print">
-      <button class="btn" onclick="window.print()">Print / Save as PDF</button>
-      <button class="btn secondary" onclick="window.scrollTo({top:0,behavior:'smooth'})">Back to top</button>
+      <a href="CV Robert Rakhmatullin.pdf" download class="btn">Print / Save as PDF</a>
     </div>
     <section class="about">
       <h2>About Me</h2>
